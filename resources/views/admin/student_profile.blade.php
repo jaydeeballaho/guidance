@@ -372,22 +372,22 @@
                         <div class="form-row">
                             <div class="col-3">
                                 <label class="text-center">Members of family
-                                    <input type="number" min="0" value="0" name="numberMembersFamily" class="form-control" value="{{ $student_info['family_info']->numberMembersFamily }}">
+                                    <input type="number" min="0" name="numberMembersFamily" class="form-control" value="{{ $student_info['family_info']->numberMembersFamily }}">
                                 </label>
                             </div>
                             <div class="col-3">
                                 <label class="text-center">Children
-                                    <input type="number" min="0" value="0" name="numberChildren" class="form-control" value="{{ $student_info['family_info']->numberChildren }}">
+                                    <input type="number" min="0" name="numberChildren" class="form-control" value="{{ $student_info['family_info']->numberChildren }}">
                                 </label>
                             </div>
                             <div class="col-3">
                                 <label class="text-center">Relatives
-                                    <input type="number" min="0" value="0" name="numberRelatives" class="form-control" value="{{ $student_info['family_info']->numberRelatives }}">
+                                    <input type="number" min="0" name="numberRelatives" class="form-control" value="{{ $student_info['family_info']->numberRelatives }}">
                                 </label>
                             </div>
                             <div class="col-3">
                                 <label class="text-center">House helpers
-                                    <input type="number" min="0" value="0" name="numberHouseHelpers" class="form-control" value="{{ $student_info['family_info']->numberHouseHelpers }}">
+                                    <input type="number" min="0" name="numberHouseHelpers" class="form-control" value="{{ $student_info['family_info']->numberHouseHelpers }}">
                                 </label>
                             </div>
                         </div>
